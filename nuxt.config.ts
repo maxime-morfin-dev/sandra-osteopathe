@@ -3,7 +3,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   image: {
-    provider: "ipx",
+    provider: "netlify",
+    netlify: {
+      baseURl: process.env.IMAGES_URL,
+    },
   },
   modules: [
     "@vueuse/nuxt",
