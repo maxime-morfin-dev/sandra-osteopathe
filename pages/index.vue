@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { x, y } = useMouse();
-const url = import.meta.env.VITE_DOCTOLIB_URL;
+const url = "https://www.doctolib.fr/osteopathe/brest/sandra-querrien";
 </script>
 
 <template>
