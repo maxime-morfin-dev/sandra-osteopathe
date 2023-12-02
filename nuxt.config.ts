@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
+  image: {
+    dir: "assets/images",
+    provider: "ipx",
+  },
   modules: [
     "@vueuse/nuxt",
     "@unocss/nuxt",
